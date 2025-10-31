@@ -15,7 +15,7 @@ export default function ZerodhaStyleLogin() {
   };
 
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center bg-[#f8f9fa] px-4">
+    <div className="min-h-screen flex flex-col items-center justify-center bg-[#f8f9fa] px-4    margin: 60px auto 40px;">
       <motion.div
         initial={{ opacity: 0, y: -30 }}
         animate={{ opacity: 1, y: 0 }}

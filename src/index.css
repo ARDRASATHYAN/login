@@ -28,6 +28,11 @@ html, body {
   -moz-osx-font-smoothing: grayscale; /* Firefox fix */
   text-rendering: optimizeLegibility;
   height: 100%;
+  margin: 60px auto 40px 20px;   /* top right bottom left */
+margin: 60px auto;             /* top/bottom right/left */
+margin: 60px auto 40px;        /* top horizontal bottom */
+margin: 60px;                  /* all sides */
+
 }
 
 /* Fix input autofill yellow background (Chrome/Edge) */
