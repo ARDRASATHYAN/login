@@ -22,9 +22,8 @@ export default function ZerodhaStyleLogin() {
         className="w-full max-w-sm bg-white rounded-[5px] shadow-2xl border border-gray-200"
       >
         <div className="p-8 flex flex-col items-center">
-          <img
-            src="src/assets/kite-logo.svg"
-            alt="Zerodha Logo"
+         <img src="/kite-logo.svg" alt="Zerodha Logo" 
+
             className="w-[60px] h-[60px] mb-8"
           />
 
