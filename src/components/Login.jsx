@@ -47,8 +47,8 @@ export default function ZerodhaStyleLogin() {
               onChange={handleChange}
               placeholder=" "
               autoComplete="off"
-              className="peer h-12 w-full rounded-[3px] border border-[#ddd] bg-transparent px-3 text-[#444]
-                         focus:border-[#aaa] focus:outline-none autofill:bg-transparent"
+            className="peer h-12 w-full rounded-[3px] border border-[#ddd] bg-transparent px-3 text-[#444]
+             focus:border-[#aaa] focus:outline-none autofill:bg-transparent appearance-none"
             />
             <label
               htmlFor="userid"
@@ -74,8 +74,8 @@ export default function ZerodhaStyleLogin() {
               onChange={handleChange}
               placeholder=" "
               autoComplete="new-password"
-              className="peer h-12 w-full rounded-[3px] border border-[#ddd] bg-transparent px-3 text-[#444]
-                         focus:border-[#aaa] focus:outline-none autofill:bg-transparent"
+             className="peer h-12 w-full rounded-[3px] border border-[#ddd] bg-transparent px-3 text-[#444]
+             focus:border-[#aaa] focus:outline-none autofill:bg-transparent appearance-none"
             />
             <label
               htmlFor="password"
