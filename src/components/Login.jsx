@@ -33,7 +33,7 @@ export default function ZerodhaStyleLogin() {
           />
 
           {/* Title */}
-          <h1 className="text-2xl font-normal text-gray-800 mb-10">
+          <h1 className="text-2xl font-normal text-gray-800 mb-6">
             Login to Kite
           </h1>
 
