@@ -14,11 +14,10 @@ export default function ZerodhaStyleLogin() {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-[#f8f9fa] px-4">
-      <motion.div
-        initial={{ opacity: 0, y: -30 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.8 }}
+  
+    <div className="min-h-screen flex flex-col items-center justify-center bg-[#f8f9fa]  px-4">
+      <div
+    
         className="w-full max-w-sm bg-white rounded-[5px] bg-[var(--color-bg-default)] border-2 border-[var(--color-border-default)] shadow-[1px_1px_4px_var(--color-border-default)]"
       >
         <div className="p-8 flex flex-col items-center">
@@ -55,7 +54,7 @@ export default function ZerodhaStyleLogin() {
                          before:content-[''] before:absolute before:left-1 before:right-0 before:top-1/2 before:-translate-y-1/2 
                          before:h-2 before:bg-white before:z-[-1]"
             >
-              Phone number or User ID
+           User ID
             </label>
           </div>
 
@@ -95,7 +94,7 @@ export default function ZerodhaStyleLogin() {
           </button>
 
           {/* Forgot Password */}
-          <div className="text-sm text-gray-500 w-full text-center mt-4">
+          <div className="text-sm text-gray-500 w-full text-center py-4">
             <a
               href="#"
               className="text-[#9B9B9B] hover:text-[#575555] font-medium"
@@ -104,7 +103,11 @@ export default function ZerodhaStyleLogin() {
             </a>
           </div>
         </div>
-      </motion.div>
+       
+      </div>
+       <p className="text-[#9B9B9B] hover:text-[#575555] font-large py-8">Maxence Infotech</p>
     </div>
+    
+   
   );
 }
