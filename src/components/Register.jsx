@@ -94,7 +94,7 @@ export default function Login() {
                         {/* Login Button */}
                         <button
                             onClick={handleLogin}
-                            className="w-full bg-[#387ed1] hover:bg-[#2d6db8] text-white text-md font-medium py-2 rounded-[5px] transition-colors duration-200"
+                            className="w-full bg-[#387ed1] hover:bg-[#2d6db8] text-white text-md font-medium py-2 rounded-[2px] transition-colors duration-200"
                         >
                             Login
                         </button>
