@@ -3,14 +3,14 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import 'normalize.css';
-import ZerodhaStyleLogin from './components/Login'
+import Login from './components/Register';
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-     <ZerodhaStyleLogin/>
+   <Login/>
     </>
   )
 }
