@@ -8,3 +8,9 @@
   --color-bg-default: #fff;
   --color-border-default: #eee;
 }
+html, body {
+  font-size: 16px;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}

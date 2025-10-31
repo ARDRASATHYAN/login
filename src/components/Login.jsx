@@ -1,4 +1,5 @@
 "use client";
+
 import { useState } from "react";
 import { motion } from "framer-motion";
 
@@ -14,20 +15,25 @@ export default function ZerodhaStyleLogin() {
   };
 
   return (
-  
-    <div className="min-h-screen flex flex-col items-center justify-center bg-[#f8f9fa]  px-4">
-      <div
-    
-        className="w-full max-w-sm bg-white rounded-[5px] bg-[var(--color-bg-default)] border-2 border-[var(--color-border-default)] shadow-[1px_1px_4px_var(--color-border-default)]"
+    <div className="min-h-screen flex flex-col items-center justify-center bg-[#f8f9fa] px-4">
+      <motion.div
+        initial={{ opacity: 0, y: -30 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.8 }}
+        className="w-full max-w-sm bg-[var(--color-bg-default)] rounded-[5px] 
+                   border-2 border-[var(--color-border-default)] 
+                   shadow-[1px_1px_4px_var(--color-border-default)]"
       >
         <div className="p-8 flex flex-col items-center">
-          <img src="/kite-logo.svg" alt="Zerodha Logo"
-
+          {/* Logo */}
+          <img
+            src="/kite-logo.svg"
+            alt="Zerodha Logo"
             className="w-[60px] h-[60px] mb-8"
+          />
 
-/>
-
-          <h1 className="text-2xl font-small text-gray-800 mb-10">
+          {/* Title */}
+          <h1 className="text-2xl font-normal text-gray-800 mb-10">
             Login to Kite
           </h1>
 
@@ -41,7 +47,7 @@ export default function ZerodhaStyleLogin() {
               onChange={handleChange}
               placeholder=" "
               autoComplete="off"
-              className="peer h-12 w-full rounded-[3px] border border-[#ddd] bg-transparent px-3 text-[#444] 
+              className="peer h-12 w-full rounded-[3px] border border-[#ddd] bg-transparent px-3 text-[#444]
                          focus:border-[#aaa] focus:outline-none autofill:bg-transparent"
             />
             <label
@@ -54,7 +60,7 @@ export default function ZerodhaStyleLogin() {
                          before:content-[''] before:absolute before:left-1 before:right-0 before:top-1/2 before:-translate-y-1/2 
                          before:h-2 before:bg-white before:z-[-1]"
             >
-           User ID
+              User ID
             </label>
           </div>
 
@@ -68,7 +74,7 @@ export default function ZerodhaStyleLogin() {
               onChange={handleChange}
               placeholder=" "
               autoComplete="new-password"
-              className="peer h-12 w-full rounded-[3px] border border-[#ddd] bg-transparent px-3 text-[#444] 
+              className="peer h-12 w-full rounded-[3px] border border-[#ddd] bg-transparent px-3 text-[#444]
                          focus:border-[#aaa] focus:outline-none autofill:bg-transparent"
             />
             <label
@@ -103,11 +109,12 @@ export default function ZerodhaStyleLogin() {
             </a>
           </div>
         </div>
-       
-      </div>
-       <p className="text-[#9B9B9B] hover:text-[#575555] font-large py-8">Maxence Infotech</p>
+      </motion.div>
+
+      {/* Footer */}
+      <p className="text-[#9B9B9B] hover:text-[#575555] font-medium py-8">
+        Maxence Infotech
+      </p>
     </div>
-    
-   
   );
 }
