@@ -29,7 +29,7 @@ export default function ZerodhaStyleLogin() {
           <img
             src="/kite-logo.svg"
             alt="Zerodha Logo"
-            className="w-[60px] h-[60px] mb-8"
+            className="w-[60px] h-[60px] mb"
           />
 
           {/* Title */}
