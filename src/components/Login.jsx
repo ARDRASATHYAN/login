@@ -19,15 +19,16 @@ export default function ZerodhaStyleLogin() {
         initial={{ opacity: 0, y: -30 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
-        className="w-full max-w-sm bg-white rounded-[5px] shadow-2xl border border-gray-200"
+        className="w-full max-w-sm bg-white rounded-[5px] bg-[var(--color-bg-default)] border-2 border-[var(--color-border-default)] shadow-[1px_1px_4px_var(--color-border-default)]"
       >
         <div className="p-8 flex flex-col items-center">
-         <img src="/kite-logo.svg" alt="Zerodha Logo" 
+          <img src="/kite-logo.svg" alt="Zerodha Logo"
 
             className="w-[60px] h-[60px] mb-8"
-          />
 
-          <h1 className="text-2xl font-medium text-gray-800 mb-10">
+/>
+
+          <h1 className="text-2xl font-small text-gray-800 mb-10">
             Login to Kite
           </h1>
 

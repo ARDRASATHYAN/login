@@ -4,3 +4,7 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --color-bg-default: #fff;
+  --color-border-default: #eee;
+}
